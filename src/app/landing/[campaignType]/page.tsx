@@ -23,11 +23,11 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
             Discover how raising awareness on critical issues like climate change, education, and equal job opportunities can make a difference. Join our efforts to create a better world.
           </p>
           &nbsp;
-          <h3 className='font-semibold'>Are you someone who:</h3>
+          <h2 className='text-xl font-semibold'>Are you someone who:</h2>
           <ul className="list-none mb-8">
-            <li className="text-lg">• Wants to Inform public about critical issues</li>
-            <li className="text-lg">• Willing to connect and share with people focusing on similar social initiatives as you</li>
-            <li className="text-lg">• Believes in more than talk and instead execute ideas and stay in loop</li>
+            <li className="text-lg mb-2">• Wants to Inform public about critical issues</li>
+            <li className="text-lg mb-2">• Willing to connect and share with people focusing on similar social initiatives as you</li>
+            <li className="text-lg mb-2">• Believes in more than talk and instead execute ideas and stay in loop</li>
           </ul>
         </div>
         <CTA />
@@ -35,7 +35,7 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
       <div className="container mx-auto px-4 py-8" id="learnMore">
         <h2 className="text-2xl font-bold mt-8">Why Raising Awareness Matters</h2>
         <p className="mt-4">
-          Raising awareness is the first step towards solving many of the world's most pressing problems. When people are informed about the challenges we face, they are more likely to support and advocate for solutions. Awareness campaigns can influence public opinion, drive policy changes, and mobilize resources to tackle issues head-on.
+          Raising awareness is the first step towards solving many of the world&apos;s most pressing problems. When people are informed about the challenges we face, they are more likely to support and advocate for solutions. Awareness campaigns can influence public opinion, drive policy changes, and mobilize resources to tackle issues head-on.
         </p>
         <h2 className="text-2xl font-bold mt-8">Some Areas of Focus to Begin With...</h2>
         <div className="mt-4">
