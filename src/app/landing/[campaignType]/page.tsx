@@ -90,6 +90,8 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
         <p className="mt-8 text-center">
           Together, we can create a more informed, engaged, and proactive society. Join Oasis of Ideas in our mission to raise awareness and drive change.
         </p>
+        <br/>
+        <div className='bg-[#0066dd] py-8 w-100'><CTA /></div>
         <div className="mt-8">
           <div className="mt-4">
             <div className="mt-2 flex justify-center items-center">
