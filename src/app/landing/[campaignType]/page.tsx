@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import React from 'react'
 import Link from 'next/link';
 import CTA from '@/components/Cta';
+import Image from 'next/image';
 
 interface RaisingAwarenessProps {
     params: {
@@ -90,18 +91,10 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
           Together, we can create a more informed, engaged, and proactive society. Join Oasis of Ideas in our mission to raise awareness and drive change.
         </p>
         <div className="mt-8">
-          <h2 className="text-2xl font-bold mt-8">Multimedia Elements</h2>
           <div className="mt-4">
-            <h3 className="text-xl font-semibold">Images</h3>
-            <div className="mt-2">[Placeholder for engaging images depicting each key area]</div>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-xl font-semibold">Videos</h3>
-            <div className="mt-2">[Placeholder for embedded videos featuring expert talks, campaign highlights, and testimonials]</div>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-xl font-semibold">Infographics</h3>
-            <div className="mt-2">[Placeholder for visually appealing infographics that represent data and the impact of our awareness campaigns]</div>
+            <div className="mt-2 flex justify-center items-center">
+              <Image src="/images/change.webp" alt="Landing page raising awareness" width={500} height={500} />
+            </div>
           </div>
         </div>
       </div>
