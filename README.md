@@ -13,4 +13,9 @@ I don't just want to raise awareness but make sure that people who are serious t
 
 > In short, I believe in more than just raising awareness; creating that awareness in the reality we live in.
 
-### What I have done to make 
+### What I have done to make this good for SEO
+
+- Used `<article>` tag to wrap the main content of the landing page
+- Used backlinking to connect the landing page to `https://www.oasis-of-ideas.com/`'s several links
+- Used `H1`, `H2`, `H3` etc tags to properly organize the content.
+- Used `alt` tag in `Image`, used `.webp` image format
