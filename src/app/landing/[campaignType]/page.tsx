@@ -38,7 +38,7 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
           </div> */}
         </div>
       </section>
-      <div className="container mx-auto px-4 py-8">
+      <article className="container mx-auto px-4 py-8">
         <h2 className="text-2xl font-bold mt-8">Why Raising Awareness Matters</h2>
         <p className="mt-4">
           Raising awareness is the first step to bringing attention of the masses to many of the world's pressing problems. When people are informed about the challenges we face and its long term consequences, they are more likely to engage in such discussions. If awareness is fused with execution, you can influence public opinion, drive policy changes, and mobilize resources to tackle issues head-on.
@@ -78,7 +78,7 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
           <li>Spread the word by sharing ideas and discussions on social media.</li>
           <li>Support our mission by donating or volunteering your time to help bring these ideas to life.</li>
         </ul>
-      </div>
+      </article>
       <CTA />
       <Footer />
     </div>
