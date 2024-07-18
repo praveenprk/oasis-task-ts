@@ -41,13 +41,13 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
       <article className="container mx-auto px-4 py-8">
         <h2 className="text-2xl font-bold mt-8">Why Raising Awareness Matters</h2>
         <p className="mt-4">
-          Raising awareness is the first step to bringing attention of the masses to many of the world's pressing problems. When people are informed about the challenges we face and its long term consequences, they are more likely to engage in such discussions. If awareness is fused with execution, you can influence public opinion, drive policy changes, and mobilize resources to tackle issues head-on.
+          Raising awareness is the first step to bringing attention of the masses to many of the world's pressing problems. When people are informed about the challenges we face and its long term consequences, they are more likely to engage in such discussions. If awareness is fused with execution, you can influence public opinion, drive policy changes, and mobilize resources to tackle issues head-on. And if you feel, you don't have the time to bring change, then don't worry. Just <Link href='https://www.oasis-of-ideas.com/submit-idea'>submit your idea</Link> and let the community discover it, engage with it and let somebody even bring it to life!
         </p>
         <h2 className="text-2xl font-bold mt-8">Some Areas to Begin With:</h2>
         <div className="mt-4">
           <h3 className="text-xl font-semibold">Climate Change</h3>
           <p className="mt-2">
-            Climate change is one of the most urgent issues of our time. Raising awareness about the causes, impacts, and solutions is crucial to mobilizing global action. Our community shares ideas that educate the public about climate science, promote sustainable practices, and advocate for policies that mitigate environmental damage. Not just that, the crowd at OAI is unlike other communities. Here, people are go-getters. We believe in executing ideas and seeing impact in one way or another. People here don't just read, upvote and comment. Instead, they participate and express their interest in executing the idea. So, if you believe that fossil fuels are just the tip of the iceberg and international bodies and citizens alike must do the needful with utmost urgency. This is the place for you. Engage with <a href='https://www.oasis-of-ideas.com/ideas/conceptualizing-and-implementing-a-climate-labelling-system'>exciting climate change ideas</a>
+            Climate change is one of the most urgent issues of our time. Raising awareness about the causes, impacts, and solutions is crucial to mobilizing global action. Our community shares ideas that educate the public about climate science, promote sustainable practices, and advocate for policies that mitigate environmental damage. Not just that, the crowd at OAI is unlike other communities. Here, people are go-getters. We believe in executing ideas and seeing impact in one way or another. People here don't just read, upvote and comment. Instead, they participate and express their interest in executing the idea. So, if you believe that fossil fuels are just the tip of the iceberg and international bodies and citizens alike must do the needful with utmost urgency. This is the place for you. Engage with <Link href='https://www.oasis-of-ideas.com/ideas/conceptualizing-and-implementing-a-climate-labelling-system'>exciting climate change ideas</Link>
           </p>
         </div>
         <div className="mt-4">
@@ -59,7 +59,7 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
         <div className="mt-4">
           <h3 className="text-xl font-semibold">Better Education</h3>
           <p className="mt-2">
-            <a href='https://www.oasis-of-ideas.com/ideas/the-education-interviews-fixing-the-misunderstandings-about-the-education-system'>Our education system is broken and outdated.</a> Quality education is a fundamental right that should be accessible to all. Join OAI and spark a discussion on why despite millions of colleges throughout the world, billions are jobless yet. Why are third-world countries, despite 5G connections, lag behind in jobs and better life. Why has there been no major inventions since the Internet? Why are our computer science students limited to building and maintaining products that serve only the top 5%? What have the lower strata done to not deserve high quality education?
+            <Link href='https://www.oasis-of-ideas.com/ideas/the-education-interviews-fixing-the-misunderstandings-about-the-education-system'>Our education system is broken and outdated.</Link> Quality education is a fundamental right that should be accessible to all. Join OAI and spark a discussion on why despite millions of colleges throughout the world, billions are jobless yet. Why are third-world countries, despite 5G connections, lag behind in jobs and better life. Why has there been no major inventions since the Internet? Why are our computer science students limited to building and maintaining products that serve only the top 5%? What have the lower strata done to not deserve high quality education?
           </p>
         </div>
         <div className="mt-4">
@@ -67,6 +67,9 @@ const RaisingAwareness: React.FC<RaisingAwarenessProps> = ({params}) => {
           <p className="mt-2">
             Blaming Governments and people who vote based on their ideologies and beliefs is not a wise way of approaching political crisis that the world is facing. Instead, we should question the fundamentals of what makes a society turn to a civilization. Spark discussions that takes not only leaders but also citizens accountable. Accountable for the way they think and make decisions. The Governance is not about getting ruled by someone or to vote for someone. It is about handing the civilization to the few wise who should accelarate the society from our tribal past to a global village. If you are a political scientist, social activist, game theorist, or a citizen striving for change, start discussions around new forms of governance, we encourage public participation and support for democratic reforms. Discuss ideas like participatory budgeting, e-governance, and community-led decision-making for a truly post-democratic and meta-modern society.
           </p>
+        </div>
+        <div className="mt-2 flex justify-center items-center">
+              <Image src="/images/change.webp" alt="Landing page raising awareness" width={500} height={500} />
         </div>
         <h2 className="text-2xl font-bold mt-8">Get Involved</h2>
         <p className="mt-4">
