@@ -16,6 +16,6 @@ I don't just want to raise awareness but make sure that people who are serious t
 ### What I have done to make this good for SEO
 
 - Used `<article>` tag to wrap the main content of the landing page
-- Used backlinking to connect the landing page to `https://www.oasis-of-ideas.com/`'s several links
+- Used backlinking to connect the landing page to `https://www.oasis-of-ideas.com/`'s several links. Allowing visitors to scan or want to engage with an idea/repository which will require to sign up.
 - Used `H1`, `H2`, `H3` etc tags to properly organize the content.
 - Used `alt` tag in `Image`, used `.webp` image format
